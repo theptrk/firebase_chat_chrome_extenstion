@@ -1,0 +1,35 @@
+<!doctype html>
+
+<style type="text/css">
+	#mainPopup {
+		padding: 10px;
+		height: 200px;
+		width: 400px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#inputName {
+		height: 25px;
+		width: 50%;
+		font-size: 1.25em;
+	}
+
+	.noInput {
+		border: 0px;
+	}
+</style>
+
+<div id="mainPopup">
+<h1>Firebase Chat on Chrome</h1>
+<label id='nameLabel'>name</label>
+<input type="text" id="inputName" style=''>
+<hr>
+<input type="text" id="inputMsg">
+<button id='button'>Send</button>
+<p><span id="contents"></span></p>
+</div>
+
+<script type="text/javascript" src="https://cdn.firebase.com/v0/firebase.js"></script>
+<script src="browser_action.js"></script>
